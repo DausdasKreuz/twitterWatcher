@@ -1,0 +1,20 @@
+{
+  "name": "twitterwatcher",
+  "version": "1.0.0",
+  "description": "API to get information from Twitter",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "author": "Daniel Garcia de la Cruz",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0",
+    "mongodb": "^2.2.16",
+    "x-ray": "^2.3.1"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "nodemon": "^1.11.0"
+  }
+}
